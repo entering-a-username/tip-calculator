@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#resultID {
+    animation: appear 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {left: -1rem}
+    100% {left: 17rem}
+}
